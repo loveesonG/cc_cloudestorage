@@ -1,0 +1,56 @@
+{
+	"redis":
+	{
+		"ip": "127.0.0.1",
+		"port": "6379"
+	},
+
+	"mysql":
+	{
+		"ip": "172.30.0.2",
+		"port": "3306",
+		"database": "yuncunchu",
+		"user": "root",
+		"password": "123456"
+	},
+
+	"dfs_path":
+	{
+		"client": "/etc/fdfs/client.conf"
+	},
+
+	"web_server":
+	{
+		"ip": "172.30.0.3",
+		"port": "80"
+	},
+
+	"storage_web_server":
+	{
+		"ip": "172.30.0.3",
+		"port": "80"
+	},
+
+	"public_server":
+	{
+		"ip": "119.45.165.253",
+		"port": "443"
+	},
+
+	"dashscope":
+	{
+		"base_url": "https://dashscope.aliyuncs.com/api/v1",
+		"api_key": "",
+		"embedding_model": "qwen3.7-text-embedding-flash",
+		"vl_model": "qwen3.8-flash",
+		"embedding_dimension": "1024"
+	},
+
+	"faiss":
+	{
+		"index_path": "/data/faiss/index.bin",
+		"user_index_dir": "/data/faiss/users",
+		"id_map_path": "/data/faiss/id_map.json"
+	}
+
+}
